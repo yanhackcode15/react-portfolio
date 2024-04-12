@@ -3,7 +3,6 @@ import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import {loadPolygonMaskPlugin} from "@tsparticles/plugin-polygon-mask";
 import { loadSlim } from "@tsparticles/slim";
-import deerSVG from '../assets/images/smalldeer.svg';
 import profileSVG from '../assets/images/profilePic.svg'
 
 export function ParticlesContainer() {

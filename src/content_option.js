@@ -1,4 +1,5 @@
 import bgImage from "./assets/images/bgImage.jpg"
+import rideSharingImage from './assets/images/rideSharing.png'
 const logotext = "YH";
 const meta = {
     title: "Yan Hu",
@@ -73,7 +74,7 @@ const skills = [{
     },
 ];
 const dataportfolio = [{
-    img: "https://picsum.photos/400/?grayscale",
+    img: rideSharingImage,
     description: "xxxxxx",
     link: "",
 }]
