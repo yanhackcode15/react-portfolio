@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "main": "index.js", 
-    "homepage": "https://yanhackcode15.github.io/react-portfolio/",
+    "homepage": "https://yanhackcode15.github.io/react-portfolio",
     "dependencies": {
         "@tsparticles/plugin-polygon-mask": "^3.3.0",
         "@tsparticles/react": "^3.0.0",
