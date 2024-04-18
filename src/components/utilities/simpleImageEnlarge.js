@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import { Size } from 'tsparticles-engine';
 
 const SimpleImageEnlarge = ({ src, alt }) => {
   const [isEnlarged, setIsEnlarged] = useState(false);
 
-  const handleMouseEnter = () => {
+  const handleMouseClickToEnlarge = () => {
     setIsEnlarged(true);
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseClickToShrink = () => {
     setIsEnlarged(false);
   };
 
@@ -18,8 +19,6 @@ const SimpleImageEnlarge = ({ src, alt }) => {
         display: 'inline-block',
         cursor: 'pointer',
       }}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
     >
       {isEnlarged && (
         <div
@@ -36,7 +35,7 @@ const SimpleImageEnlarge = ({ src, alt }) => {
             border: '1px solid #ccc', // Optional: Border for the container
             boxShadow: '0 4px 6px rgba(0,0,0,0.1)', // Optional: Shadow for the container
           }}
-          onMouseLeave={handleMouseLeave} // Hide when mouse leaves the enlarged image container
+          // Hide when mouse leaves the enlarged image container
         >
           <img
             src={src}
@@ -47,7 +46,21 @@ const SimpleImageEnlarge = ({ src, alt }) => {
               maxWidth: '90vw', // Allow the image to exceed the maxWidth of its parent
               maxHeight: 'none', // Allow the image to exceed the maxHeight of its parent
             }}
+            onMouseDown={handleMouseClickToShrink}
           />
+          <span
+          style={{
+            fontSize: 30,
+            position: 'absolute',
+            top: '10px',
+            right: '10px',
+            color: 'white',
+            backgroundColor: 'rgba(0,0,0,0.5)',
+            padding: '10px',
+          }}
+        >
+          Click to Exit
+        </span>
         </div>
       )}
       <img
@@ -58,6 +71,7 @@ const SimpleImageEnlarge = ({ src, alt }) => {
           maxHeight: '100%',
           display: isEnlarged ? 'none' : 'block', // Hide the small image when the large one is displayed
         }}
+        onMouseDown={handleMouseClickToEnlarge}
       />
       {!isEnlarged && (
         <span
@@ -70,7 +84,7 @@ const SimpleImageEnlarge = ({ src, alt }) => {
             padding: '5px',
           }}
         >
-          Mouseover to Enlarge
+          Click to Enlarge
         </span>
       )}
     </div>

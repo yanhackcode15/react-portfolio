@@ -87,7 +87,7 @@ const dataportfolio = [
         overview: "As a passionate full-stack developer, I designed and implemented a ride-sharing application akin to Uber, aiming to showcase my proficiency in modern web technologies and application development. This project serves as a cornerstone of my portfolio, demonstrating my ability to develop a comprehensive, user-friendly service from the ground up. It features real-time location tracking, dynamic pricing algorithms, and an intuitive user interface for both riders and drivers. Through this application, I've applied my skills in React.js for the frontend, Node.js and Express for the backend, with MongoDB for data management, and integrated Google Cloud Platform for deployment.",
         learnings: ["Rapidly Time to Market: built and launched a MVP full stack app with multiple microservices within days, utilizing AI as the coding coach.", "Gained proficiency in a wide array of technologies across the development spectrum, from front-end to back-end, AI, and cloud services."],
         technologies: ["NodeJS", 'React', 'MongoDB', 'Google Cloud Platform', 'Kubernetes', 'Dockers', 'Jest', 'Supertest'],
-        link: "http://www.yan-hu.com",
+        link: "http://35.238.119.161:3000/",
         button: "View App" 
     },
     {

@@ -26,7 +26,7 @@ export const Portfolio = () => {
             <Row key={i} className="project-row mb-5">
               <Col sm="12" md="4" className="project-image">
                 {data.img ? <SimpleImageEnlarge src={data.img} alt={data.title} /> : <video controls src={data.video} autoPlay style={{ width: '100%' }}>Your browser does not support the video tag.</video>}
-                <Button className="site-link" variant="primary" href={data.link}>{data.button}</Button>
+                <Button className="site-link" variant="primary" href={data.link} target="_blank" rel="noopener noreferrer">{data.button}</Button>
               </Col>
               <Col sm="12" md="8" className="project-description">
                 <h1>{data.title}</h1>
