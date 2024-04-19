@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ac0ca7b8.css",
-    "main.js": "/react-portfolio/static/js/main.1f4309b0.js",
+    "main.js": "/react-portfolio/static/js/main.d02213cf.js",
     "static/js/7032.4b43a46d.chunk.js": "/react-portfolio/static/js/7032.4b43a46d.chunk.js",
     "static/js/327.11dd2444.chunk.js": "/react-portfolio/static/js/327.11dd2444.chunk.js",
     "static/js/6799.d6bde7bd.chunk.js": "/react-portfolio/static/js/6799.d6bde7bd.chunk.js",
@@ -73,6 +73,7 @@
     "static/js/752.903d834f.chunk.js": "/react-portfolio/static/js/752.903d834f.chunk.js",
     "static/js/9453.53304a76.chunk.js": "/react-portfolio/static/js/9453.53304a76.chunk.js",
     "static/media/eshop.png": "/react-portfolio/static/media/eshop.854ffd4eae67b878adc9.png",
+    "static/media/portfolio.mp4": "/react-portfolio/static/media/portfolio.89154be95bffa9fe09a1.mp4",
     "static/media/bgImage.jpg": "/react-portfolio/static/media/bgImage.1f0ed79e90fd0a513fff.jpg",
     "static/media/pathfindergame.mp4": "/react-portfolio/static/media/pathfindergame.004125d6b53ba5eadcaa.mp4",
     "static/media/rideSharing.png": "/react-portfolio/static/media/rideSharing.41e5735fca5170b136da.png",
@@ -83,6 +84,6 @@
   },
   "entrypoints": [
     "static/css/main.ac0ca7b8.css",
-    "static/js/main.1f4309b0.js"
+    "static/js/main.d02213cf.js"
   ]
 }

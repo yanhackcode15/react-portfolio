@@ -6,6 +6,7 @@ import eshopImage from './assets/images/eshop.png'
 import eCommPaypal from './assets/images/eCommercePaypal.png'
 import knockJokesImage from './assets/images/knockJokes.png'
 import pathFindGameVideo from './assets/videos/pathfindergame.mp4'
+import portfolioVideo from './assets/videos/portfolio.mp4'
 const logotext = "YH";
 const knockJokesPH = "3103560131"
 const meta = {
@@ -84,11 +85,20 @@ const dataportfolio = [
     {
         img: rideSharingImage,
         title: "Ride Sharing App - Ridely",
-        overview: "As a passionate full-stack developer, I designed and implemented a ride-sharing application akin to Uber, aiming to showcase my proficiency in modern web technologies and application development. This project serves as a cornerstone of my portfolio, demonstrating my ability to develop a comprehensive, user-friendly service from the ground up. It features real-time location tracking, dynamic pricing algorithms, and an intuitive user interface for both riders and drivers. Through this application, I've applied my skills in React.js for the frontend, Node.js and Express for the backend, with MongoDB for data management, and integrated Google Cloud Platform for deployment.",
-        learnings: ["Rapidly Time to Market: built and launched a MVP full stack app with multiple microservices within days, utilizing AI as the coding coach.", "Gained proficiency in a wide array of technologies across the development spectrum, from front-end to back-end, AI, and cloud services."],
+        overview: "As a passionate full-stack developer, I designed and implemented a ride-sharing application akin to Uber, aiming to showcase my proficiency in modern web technologies and application development. This project serves as a cornerstone of my portfolio, demonstrating my ability to develop a comprehensive, user-friendly service from the ground up. It features user authentication/authorization, an intuitive user interface for both riders and drivers, and trip life cycle management. Through this application, I've applied my skills in React.js for the frontend, Node.js and Express for the backend, with MongoDB for data management, and integrated Dockers, Kubernetes, and Google Cloud Platform for deployment. The app was both unit and integration tested using Jest. ",
+        learnings: ["Rapidly Time to Market: built and launched a MVP full stack app with multiple microservices within days, utilizing AI as the coding coach.", "Gained proficiency in a wide array of technologies across the development spectrum, from front-end to back-end, dev opts, testing tooling, AI, and cloud services."],
         technologies: ["NodeJS", 'React', 'MongoDB', 'Google Cloud Platform', 'Kubernetes', 'Dockers', 'Jest', 'Supertest'],
         link: "http://35.238.119.161:3000/",
         button: "View App" 
+    },
+    {
+        video: portfolioVideo,
+        title: "React Portfolio Personal Page",
+        overview: "Personal portfolio site using a third party skin and their React template. I added the React Particle library and used the vector polygon feature. It's a redo of my previous portfolio site which was hosted via a CMS tool. Through using the template, I learned code organization, using a lightweight CMS like approach to separate data from the code, creating custom hooks. I'm also very pleased with the overall site design and animations. The particle effect works very well, adding a fluid look to it, which resonates with my sofar journey of coding where it constantly and continuously evolves and expands.",
+        learnings: ["React app code organization, routing, write custom hooks, separation of content and code, and lastly got to use the Particle JS library to make the site more fluid."],
+        technologies: ["NodeJS", 'React', 'Particle JS library'],
+        link: "http://www.yan-hu.com",
+        button: "View Site" 
     },
     {
         img: eshopImage,
