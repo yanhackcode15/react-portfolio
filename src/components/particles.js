@@ -133,15 +133,15 @@ export function ParticlesContainer() {
                         delay: {
                           value: 0
                         },
-                        enable: false,
+                        enable: true,
                         options: {}
                       },
                       outModes: {
-                        default: "bounce",
-                        bottom: "bounce",
-                        left: "bounce",
-                        right: "bounce",
-                        top: "bounce"
+                        default: "out",
+                        bottom: "out",
+                        left: "out",
+                        right: "out",
+                        top: "out"
                       },
                       random: false,
                       size: false,
@@ -168,7 +168,7 @@ export function ParticlesContainer() {
                 enable: true,
                 type: "inline", // "inline" for using SVG path
                 url: profileSVG, // Ensure this is the correct path to your SVG
-                scale: -0.3, // Adjust as needed
+                scale: -0.15, // Adjust as needed
                 inline: {
                   arrangement: "equidistant"
                 },
